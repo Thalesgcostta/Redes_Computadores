@@ -1,0 +1,18 @@
+Modelo hierárquico de 3 camadas
+
+Camada do núcleo:
+Conecta dispositivos da camada de distribuição e dá acesso às redes externas
+Deve ter links de alta velocidade 10 Gbs
+
+Camada de distribuição:
+Conecta os switches da camada de acesso
+Controla fluxo de tráfego de redes e tamanho do domínio de broadcast
+Conecta serviços de rede: Servidores, impressoras de grupo, APs
+
+SWITCH:
+--> Gerenciável = Quando é possível realizar configurações, como criar Vlans
+--> Não gerenciável = Configuração padrão de fábrica, switch mais simples
+
+Camada de acesso:
+ Podemos encontrar na camada de acesso, equipamentos presentes,
+ tais como, roteadores, switches, bridges, hubs e pontos de acesso wireless (AP)
